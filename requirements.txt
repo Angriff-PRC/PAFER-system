@@ -1,9 +1,10 @@
-# ✅ Streamlit Cloud 兼容版 requirements.txt（必须放在 Git 仓库根目录）
+# ✅ Streamlit Cloud · Python 3.13.11 兼容版 requirements.txt
+# ⚠️ 必须放在 Git 仓库根目录（pafer-system/requirements.txt）
 streamlit==1.17.0
 plotly==5.21.0
-pandas>=2.0.0,<2.1.0
-numpy>=1.23.0,<1.25.0
-ccxt>=4.2.0,<4.4.0
+pandas==2.2.2
+numpy==1.26.4
+ccxt==4.4.10
 cryptography==42.0.5
 websocket-client==1.8.0
 APScheduler==3.10.4
