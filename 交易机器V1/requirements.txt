@@ -1,21 +1,10 @@
-# ===== 核心运行时依赖 =====
-streamlit==1.32.0
-ccxt==4.3.47
-pandas==2.2.1
-numpy==1.26.4
+# ✅ Streamlit Cloud 兼容版 requirements.txt（必须放在 Git 仓库根目录）
+streamlit==1.17.0
 plotly==5.21.0
-scikit-learn==1.4.2
-
-# ===== 优化引擎依赖 =====
-bayesian-optimization==1.4.3
-deap==1.4.1
-
-# ===== 安全与加密 =====
+pandas>=2.0.0,<2.1.0
+numpy>=1.23.0,<1.25.0
+ccxt>=4.2.0,<4.4.0
 cryptography==42.0.5
-
-# ===== 工具与辅助 =====
+websocket-client==1.8.0
 APScheduler==3.10.4
 python-dotenv==1.0.1
-
-# ===== 可选但强烈推荐（用于日志/监控） =====
-psutil==5.9.8
